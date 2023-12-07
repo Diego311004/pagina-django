@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TasteTrekker</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'estilos.css' %}">
+</head>
+<body>
+
+    <div class="appbar">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="galeria">Galeria</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="linea"></div>
+    <header>
+        <div class="containe">
+            <img src="{% static 'fondoropa.jpg' %}">
+            <hr>
+            <h1>Prendas Destacadas</h1>
+        </div>
+    </header>
+
+    <div class="linea"></div>
+
+    <section>
+        {% for elemento in Restaurantes %}
+             <article>
+                 <h3> {{ elemento.nombre }} </h3> <br>
+                 <img src="{{ elemento.imagen }}">
+                 <p>
+                    {{ elemento.contenido}}
+                 </p>
+                 <footer>
+                     Autor: {{ elemento.autor}}
+                 </footer>
+            </article>
+        {% endfor %}
+    </section>
+    
+    <div class="linea"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

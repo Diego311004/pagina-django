@@ -1,0 +1,152 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(195, 218, 255)
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+img{
+    width:1580px;
+    height: 360px;
+  
+}
+
+article{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+}
+
+article p{
+    margin: 1rem;
+}
+
+article h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+article img{
+    max-width: 90%;
+}
+
+article footer{
+    font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+
+form {
+    background-color: white;
+    border-radius: 15px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+    width: 60%;
+}
+
+input, textarea {
+    border: #aaa 2px solid;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 80%;
+}
+
+textarea {
+    height: 4rem;
+    resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.appbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.linea {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
